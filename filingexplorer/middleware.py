@@ -4,5 +4,7 @@ class HSTSMiddleware:
 
     def __call__(self, request):
         response = self.response(request)
-        response['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains; preload'
+
+        if 'preload' not in response['Strict-Transport-Security']:
+              response['Strict-Transport-Security'] += '; preload'
         return response

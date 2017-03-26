@@ -4,3 +4,4 @@ gunicorn==19.6.0
 psycopg2==2.6.2
 Werkzeug==0.12.1
 whitenoise==3.2
+wsgi-sslify==1.0.1
