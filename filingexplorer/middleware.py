@@ -4,7 +4,5 @@ class HSTSMiddleware:
 
     def __call__(self, request):
         response = self.response(request)
-
-        if 'preload' not in response['Strict-Transport-Security']:
-              response['Strict-Transport-Security'] += '; preload'
+        response['Strict-Transport-Security'] = response['Strict-Transport-Security'] + '; preload'
         return response
