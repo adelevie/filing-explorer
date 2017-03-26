@@ -53,6 +53,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+if not bool(os.environ.get('DJANGO_DEVELOPMENT')):
+    MIDDLEWARE.append('filingexplorer.middleware.HSTSMiddleware')
+
 ROOT_URLCONF = 'filingexplorer.urls'
 
 TEMPLATES = [

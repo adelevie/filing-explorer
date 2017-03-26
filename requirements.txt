@@ -4,4 +4,3 @@ gunicorn==19.6.0
 psycopg2==2.6.2
 Werkzeug==0.12.1
 whitenoise==3.2
--e git+https://github.com/adelevie/wsgi-sslify@c2f92feed5874008e0e7df033577ada12313a685#egg=wsgi_sslify
