@@ -19,4 +19,4 @@ application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
 
 if not bool(os.environ.get('DJANGO_DEVELOPMENT')):
-    application = sslify(application, subdomains=True)
+    application = sslify(application, subdomains=True, preload=True)
