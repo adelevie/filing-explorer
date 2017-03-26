@@ -1,6 +1,8 @@
 dj-database-url==0.4.1
 Django==1.10.4
+django-sslify==0.2.7
 gunicorn==19.6.0
 psycopg2==2.6.2
 Werkzeug==0.12.1
 whitenoise==3.2
+wsgi-sslify==1.0.1
