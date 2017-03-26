@@ -55,6 +55,9 @@ MIDDLEWARE = [
 
 if not bool(os.environ.get('DJANGO_DEVELOPMENT')):
     MIDDLEWARE.append('filingexplorer.middleware.HSTSMiddleware')
+    MIDDLEWARE.append('sslify.middleware.SSLifyMiddleware')
+    SECURE_SSL_REDIRECT = True
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ROOT_URLCONF = 'filingexplorer.urls'
 

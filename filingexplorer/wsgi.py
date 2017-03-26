@@ -11,7 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise
-from wsgi_sslify import sslify
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "filingexplorer.settings")
 
