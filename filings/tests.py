@@ -17,7 +17,7 @@ class GetFilingsTestCase(TestCase):
         mock_get.return_value.json.return_value = mock_json
 
         proceeding_name = '12-375'
-        api_key = os.environ.get('ECFS_API_KEY')
+        api_key = 'aFakeApiKey'
 
         get_filings = GetFilings(api_key, proceeding_name)
         filings_response = get_filings.perform()
