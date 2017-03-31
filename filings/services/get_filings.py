@@ -19,6 +19,4 @@ class GetFilings(object):
 
         filings_response = requests.get(url, params=payload)
 
-        filings = filings_response.json()['filings']
-
-        return filings
+        return filings_response
