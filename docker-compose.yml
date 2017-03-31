@@ -13,3 +13,4 @@ services:
       - db
     environment:
       - DJANGO_DEVELOPMENT=true
+    env_file: .env
