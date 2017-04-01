@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Filing, Proceeding
+
+admin.site.register(Filing)
+admin.site.register(Proceeding)

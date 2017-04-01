@@ -8,11 +8,9 @@ class GetFilings(object):
         self._api_key = api_key
 
     def perform(self):
-        print('pretending to get the filings from proceeding {}!!!!'.format(self._proceeding_name))
-
         payload = {
             'q': self._proceeding_name,
-            'limit': '10',
+            'limit': '1000',
             'api_key': self._api_key
         }
         url = 'https://publicapi.fcc.gov/ecfs/filings'

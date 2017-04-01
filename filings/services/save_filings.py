@@ -22,12 +22,19 @@ class SaveFilings(object):
                 description=proceeding_json.get('description', None),
             )
 
+            author = None
+            authors = filing.get('authors', None)
+            if authors:
+                author = authors[0].get('name')
+
             filing_insertion = Filing(
                 proceeding=proceeding,
                 text=filing.get('text_data', None),
                 fcc_id=filing.get('id_submission', None),
                 contact_email=filing.get('contact_email', None),
-                filer=filing.get('filers', [])[0]
+                filer=filing.get('filers', [])[0].get('name'),
+                author=author,
+                submission_type=filing.get('submissiontype', {}).get('description', None)
             )
 
             filing_insertions.append(filing_insertion)

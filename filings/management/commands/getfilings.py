@@ -1,6 +1,9 @@
+import os
+
 from django.core.management.base import BaseCommand, CommandError
 
 from filings.services.get_filings import GetFilings
+from filings.services.save_filings import SaveFilings
 
 class Command(BaseCommand):
     help = 'Gets all the filings for a given proceeding'
@@ -13,10 +16,14 @@ class Command(BaseCommand):
 
         proceeding_name = options['proceeding_name']
 
-        self.stdout.write("Pretending to find filings for proceeding {}".format(proceeding_name))
+        self.stdout.write("Retriving filings for proceeding {}".format(proceeding_name))
 
-        get_filings = GetFilings('12-375')
+        get_filings = GetFilings(os.environ.get('ECFS_API_KEY'), proceeding_name)
 
-        get_filings.perform()
+        filings_json = get_filings.perform().json()
+
+        save_filings = SaveFilings(filings_json)
+
+        save_filings.perform()
 
         self.stdout.write("Finishing getfilings command.")
