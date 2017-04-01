@@ -18,3 +18,4 @@ traitlets==4.3.2
 wcwidth==0.1.7
 Werkzeug==0.12.1
 whitenoise==3.2
+wsgi-sslify==1.0.1
