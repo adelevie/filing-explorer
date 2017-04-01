@@ -2,7 +2,12 @@ import os
 import json
 
 from django.test import TestCase
+
 from filings.services.get_filings import GetFilings
+
+from filings.services.save_filings import SaveFilings
+
+from .models import Proceeding, Filing
 
 from unittest.mock import Mock, patch
 
@@ -37,3 +42,21 @@ class GetFilingsTestCase(TestCase):
                 proceeding_names.append(proceeding['name'])
 
             self.assertTrue(proceeding_name in proceeding_names)
+
+class SaveFilingsTestCase(TestCase):
+    def test_perform(self):
+        filings_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375.json')).read())
+
+        filings = filings_json['filings']
+
+        self.assertEqual(Filing.objects.count(), 0)
+
+        save_filings = SaveFilings(filings_json)
+        save_filings.perform()
+
+        self.assertEqual(Filing.objects.count(), len(filings))
+
+        queried_filings = Filing.objects.all()
+
+        for queried_filing in queried_filings:
+            self.assertTrue(queried_filing.proceeding.pk is not None)
