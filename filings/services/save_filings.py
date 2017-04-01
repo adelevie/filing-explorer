@@ -3,13 +3,12 @@ from filings.models import Filing
 from IPython import embed
 
 class SaveFilings(object):
-    def __init__(self, filings_json):
-        self._filings_json = filings_json
+    def __init__(self, filings):
+        self._filings = filings
 
     def perform(self):
-        filings = self._filings_json['filings']
+        for filing_json in self._filings:
 
-        for filing_json in filings:
             proceedings_json = filing_json['proceedings']
 
             proceedings = []
