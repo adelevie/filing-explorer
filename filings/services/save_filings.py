@@ -1,4 +1,4 @@
-from filings.models import Proceeding, Filing
+from filings.models import Filing
 
 from IPython import embed
 
@@ -9,34 +9,41 @@ class SaveFilings(object):
     def perform(self):
         filings = self._filings_json['filings']
 
-        filing_insertions = []
+        for filing_json in filings:
+            proceedings_json = filing_json['proceedings']
 
-        for filing in filings:
-            proceeding_json = filing['proceedings'][0]
+            proceedings = []
+            for p in proceedings_json:
+                proceedings.append(p.get('name'))
 
-            proceeding, created = Proceeding.objects.get_or_create(
-                name=proceeding_json.get('name', None),
-                bureau_name=proceeding_json.get('bureau_name', None),
-                bureau_code=proceeding_json.get('bureau_code', None),
-                fcc_id=proceeding_json.get('id_proceeding', None),
-                description=proceeding_json.get('description', None),
-            )
+            proceeding = proceedings_json[0].get('name')
 
             author = None
-            authors = filing.get('authors', None)
+            authors = filing_json.get('authors', None)
             if authors:
                 author = authors[0].get('name')
 
-            filing_insertion = Filing(
-                proceeding=proceeding,
-                text=filing.get('text_data', None),
-                fcc_id=filing.get('id_submission', None),
-                contact_email=filing.get('contact_email', None),
-                filer=filing.get('filers', [])[0].get('name'),
-                author=author,
-                submission_type=filing.get('submissiontype', {}).get('description', None)
-            )
+            documents = []
+            for document in filing_json.get('documents', []):
+                documents.append(document.get('src'))
 
-            filing_insertions.append(filing_insertion)
+            fcc_id = filing_json.get('id_submission', None)
 
-        Filing.objects.bulk_create(filing_insertions)
+            try:
+                filing = Filing.objects.get(fcc_id=fcc_id)
+            except Filing.DoesNotExist:
+                filing = Filing()
+                filing.fcc_id = fcc_id
+                filing.contact_email = filing_json.get('contact_email', None)
+                filing.filer = filing_json.get('filers', [])[0].get('name')
+                filing.author = author
+                filing.submission_type = filing_json.get('submissiontype', {}).get('description', None)
+                filing.documents = documents
+                filing.proceeding = proceeding
+                filing.proceedings = proceedings
+                filing.text = filing_json.get('text_data', None)
+
+            try:
+                filing.save()
+            except:
+                print("Error saving filing")

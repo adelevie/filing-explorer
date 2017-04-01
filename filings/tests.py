@@ -7,7 +7,7 @@ from filings.services.get_filings import GetFilings
 
 from filings.services.save_filings import SaveFilings
 
-from .models import Proceeding, Filing
+from .models import Filing
 
 from unittest.mock import Mock, patch
 
@@ -59,4 +59,13 @@ class SaveFilingsTestCase(TestCase):
         queried_filings = Filing.objects.all()
 
         for queried_filing in queried_filings:
-            self.assertTrue(queried_filing.proceeding.pk is not None)
+            self.assertTrue(queried_filing.proceeding is not None)
+
+        # test for idempotency:
+        # if the filings have already been scraped, update the object,
+        # but don't save a new one.
+
+        save_filings = SaveFilings(filings_json)
+        save_filings.perform()
+
+        self.assertEqual(Filing.objects.count(), len(filings))

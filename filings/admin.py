@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-from .models import Filing, Proceeding
+from .models import Filing
 
 admin.site.register(Filing)
-admin.site.register(Proceeding)
