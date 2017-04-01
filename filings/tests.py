@@ -18,7 +18,7 @@ class GetFilingsTestCase(TestCase):
     @patch('filings.services.get_filings.requests.get')
     def test_perform(self, mock_get):
         mock_get.return_value.status_code = 200
-        mock_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375.json')).read())
+        mock_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375-1.json')).read())
         mock_get.return_value.json.return_value = mock_json
 
         proceeding_name = '12-375'
@@ -45,7 +45,7 @@ class GetFilingsTestCase(TestCase):
 
 class SaveFilingsTestCase(TestCase):
     def test_perform(self):
-        filings_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375.json')).read())
+        filings_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375-1.json')).read())
 
         filings = filings_json['filings']
 

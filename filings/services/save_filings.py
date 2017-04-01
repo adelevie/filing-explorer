@@ -42,6 +42,7 @@ class SaveFilings(object):
                 filing.proceeding = proceeding
                 filing.proceedings = proceedings
                 filing.text = filing_json.get('text_data', None)
+                filing.date_submitted = filing_json.get('date_submission', None)
 
             try:
                 filing.save()

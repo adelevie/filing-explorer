@@ -1,0 +1,1070 @@
+{
+  "filings": [
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c5c39741c00000-A.pdf",
+          "filename": "GTL comments on Securus extension request (3-28-17).pdf",
+          "description": ""
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Global Tel*Link Corporation"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Cherie R. Kiser"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Cahill Gordon & Reindel LLP"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1990 K Street, NW",
+        "address_line_2": "Suite 950",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20006"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Law Firm",
+      "emailConfirmation": "true",
+      "contact_email": "ckiser@cahill.com",
+      "express_comment": 0,
+      "confirmation_number": "201703281196200868",
+      "id_submission": "103280434827744",
+      "presented_to": [],
+      "date_received": "2017-03-28T22:37:08.261Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-28T22:37:08.261Z",
+      "date_disseminated": "2017-03-29T15:00:03.915Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c5b3c500c00000-A.pdf",
+          "filename": "Pay Tel -- Comments Regarding Securus Motion for Extension of Time to Submit Annual Reports.pdf",
+          "description": "Pay Tel--Comments re: Securus Motion for Extension of Time"
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Pay Tel Communications, Inc."
+        }
+      ],
+      "authors": [
+        {
+          "name": "Timothy G. Nelson"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Brooks Pierce, LLP"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1700 Wells Fargo Capitol Center",
+        "address_line_2": "150 Fayetteville Street",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27601"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "tnelson@brookspierce.com",
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Law Firm",
+      "express_comment": 0,
+      "confirmation_number": "2017032823535849",
+      "id_submission": "1032802088486",
+      "presented_to": [],
+      "date_received": "2017-03-28T21:28:32.247Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-28T21:28:32.247Z",
+      "date_disseminated": "2017-03-29T15:00:03.848Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c5b5c836000000-A.pdf",
+          "filename": "Pay Tel -- Comments Regarding Securus Motion for Extension of Time to Submit Annual Reports.pdf",
+          "description": "Pay Tel--Comments Regarding Securus Motion for Extension of Time"
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Pay Tel Communications, Inc."
+        }
+      ],
+      "authors": [
+        {
+          "name": "Timothy Nelson"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Brooks Pierce, LLP"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1700 Wells Fargo Capitol Center",
+        "address_line_2": "150 Fayetteville Street",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27601"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "tnelson@brookspierce.com",
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Law Firm",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "20170328017280568",
+      "id_submission": "10328110939693",
+      "presented_to": [],
+      "date_received": "2017-03-28T21:35:46.630Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-28T21:35:46.630Z",
+      "date_disseminated": "2017-03-29T15:00:03.848Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c59d082cc00000-A.pdf",
+          "filename": "Opposition to Extension Request.pdf",
+          "description": ""
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Wright Petitioners"
+        },
+        {
+          "name": "CURE"
+        },
+        {
+          "name": "Prison Policy Initiative"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Lee G. Petro"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Drinker Biddle & Reath"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1500 K Street, N.W.",
+        "address_line_2": "Suite 1100",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20005"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "lee.petro@dbr.com",
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Law Firm",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "20170328294841551",
+      "id_submission": "1032819631568",
+      "presented_to": [],
+      "date_received": "2017-03-28T19:48:33.420Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-28T19:48:33.420Z",
+      "date_disseminated": "2017-03-28T21:45:03.616Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c594f048800000-A.pdf",
+          "filename": "HRDC Comment in response to Securus Motion for Extension - FINAL.pdf",
+          "description": ""
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Human Rights Defense Center"
+        }
+      ],
+      "authors": [],
+      "bureaus": [],
+      "lawfirms": [],
+      "addressentity": {
+        "address_line_1": "P.O. Box 1151",
+        "city": "Lake Worth",
+        "state": "FL",
+        "zip_code": "33460"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "cwilkinson@humanrightsdefensecenter.org",
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Filer",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "201703283010423175",
+      "id_submission": "10328101177783",
+      "presented_to": [],
+      "date_received": "2017-03-28T19:14:42.464Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-28T19:14:42.464Z",
+      "date_disseminated": "2017-03-28T21:15:03.229Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56c475db9b800000-A.pdf",
+          "filename": "FCC Comments re Extension for Filing First Annual Reports.pdf",
+          "description": "FCC Comments re Extension for Filing First Annual Report"
+        }
+      ],
+      "proceedings": [
+        {
+          "applicant_name": "",
+          "callsign": "",
+          "channel": "",
+          "city": "",
+          "consolidated_proceeding_id": null,
+          "date_archived": null,
+          "date_closed": null,
+          "date_commission_decision": null,
+          "date_designated": null,
+          "date_effective": null,
+          "date_initial_decision": null,
+          "date_nprm": null,
+          "date_oral_argument": null,
+          "date_proceeding_created": "2012-12-26T11:45:53.000-05:00",
+          "date_public_notice": null,
+          "date_reporting_and_order": null,
+          "date_rule_board_decision": null,
+          "flag_exparte_allowed": "N",
+          "face_card_id": 214,
+          "filed_by": "Aleta.Bowers",
+          "file_number": "",
+          "flag_archived": "N",
+          "flag_historical_data_exists": "N",
+          "flag_internet_file": "Y",
+          "flag_open_close": "O",
+          "flag_rulemaking_or_docket": "D",
+          "flag_small_business_impact": " ",
+          "id_bureau": "21",
+          "id_proceeding": 1012202567,
+          "id_state": null,
+          "location": "",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "recent_filing_count": 9,
+          "name": "12-375",
+          "dro_cc_exemption": "N",
+          "rule_section": "",
+          "total_filing_count": 2179,
+          "bureau": {
+            "code": "WC",
+            "name": "Wireline Competition Bureau",
+            "edocs_bureau_code": "WCB"
+          },
+          "state": {
+            "id": null,
+            "name": null,
+            "abbreviation": null
+          },
+          "date_hot_docket": "2016-06-20T16:03:02.328-04:00",
+          "total": 2236,
+          "_index": "proceedings.legacy.new",
+          "recent_filings": 7,
+          "days": 30
+        }
+      ],
+      "filers": [
+        {
+          "name": "Inmate Calling Solutions, LLC"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Tim McAteer"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [],
+      "addressentity": {
+        "address_line_1": "2200 Danbury Street",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip_code": "78217"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "caumiller@icsolutions.com",
+      "submissiontype": {
+        "id": 7,
+        "abbreviation": "CO",
+        "description": "COMMENT",
+        "short": "COMMENT"
+      },
+      "entity": "Author",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "2017032732449459",
+      "id_submission": "1032715058501",
+      "presented_to": [],
+      "date_received": "2017-03-27T22:19:06.628Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-27T22:19:06.628Z",
+      "date_disseminated": "2017-03-28T15:00:03.469Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "is_action": 1,
+      "id_submission": "031429724653",
+      "is_staff_upload": 0,
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56b3a03b19800000-X.docx",
+          "filename": "DA-17-249A1.docx",
+          "description": " "
+        },
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56b3a014cb000000-X.pdf",
+          "filename": "DA-17-249A1.pdf",
+          "description": " "
+        },
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56b3a03b18400000-X.txt",
+          "filename": "DA-17-249A1.txt",
+          "description": " "
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "id_proceeding": 1012202567,
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Wireline Competition Bureau"
+        }
+      ],
+      "authors": [
+        {
+          "name": "Wireline Competition Bureau"
+        }
+      ],
+      "bureaus": [
+        {
+          "id": 145,
+          "bureau_code": "WC",
+          "name": "Wireline Competition Bureau",
+          "edocs_bureau_code": "WCB"
+        }
+      ],
+      "lawfirms": [
+        {
+          "name": "FCC"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "445 12th Street SW",
+        "address_line_2": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20554",
+        "zip4": ""
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "entity": "Filer",
+      "express_comment": 0,
+      "text_data": "",
+      "submissiontype": {
+        "id_submission_type": 88,
+        "type": "PN",
+        "description": "PUBLIC NOTICE",
+        "short": "PUB NOTICE"
+      },
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": 10,
+        "description": "Unrestricted"
+      },
+      "delegated_authority_number": "DA-17-249",
+      "file_number": " ",
+      "report_number": " ",
+      "fcc_record": "",
+      "bureau_id": " ",
+      "small_business_impact": "N",
+      "reg_flex_analysis": "N",
+      "date_submission": "2017-03-14T20:15:04.725Z",
+      "date_received": "2017-03-14T20:15:04.725Z",
+      "date_disseminated": "2017-03-14T04:00:00.000Z",
+      "date_comment_period": null,
+      "date_reply_comment": null,
+      "date_last_modified": "2017-03-14T20:22:50.833Z",
+      "id_edocs": 343894,
+      "trackChanges": [],
+      "_index": "filings.actions.2017"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56ae90e304c00000-A.pdf",
+          "filename": "WC 12-375 Securus Motion for Extension Annual Report filed Mar 10 2017.pdf",
+          "description": ""
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Securus Technologies, Inc."
+        }
+      ],
+      "authors": [
+        {
+          "name": "Stephanie A. Joyce"
+        },
+        {
+          "name": "Andrew D. Lipman"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Arent Fox LLP"
+        },
+        {
+          "name": "Morgan Lewis & Bockius LLP"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1717 K Street, N.W. // 2020 K Street, N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20006"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "submissiontype": {
+        "id": 33,
+        "abbreviation": "MN",
+        "description": "MOTION FOR EXTENSION OF TIME",
+        "short": "MOTION"
+      },
+      "entity": "Law Firm",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "201703102518503881",
+      "id_submission": "103100303225125",
+      "presented_to": [],
+      "date_received": "2017-03-10T22:09:57.886Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-10T22:09:57.886Z",
+      "date_disseminated": "2017-03-13T15:00:03.927Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56ae8fc87dc00000-A.pdf",
+          "filename": "WC 12-375 Securus Motion for Extension Annual Report filed Mar 10 2017.pdf",
+          "description": "Motion for Extension of Time"
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        }
+      ],
+      "filers": [
+        {
+          "name": "Securus Technologies, Inc."
+        }
+      ],
+      "authors": [
+        {
+          "name": "Stephanie A. Joyce"
+        },
+        {
+          "name": "Andrew D. Lipman"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [
+        {
+          "name": "Arent Fox LLP"
+        },
+        {
+          "name": "Morgan Lewis & Bockius LLP"
+        }
+      ],
+      "addressentity": {
+        "address_line_1": "1717 K Street, N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20006",
+        "address_line_2": "2020 K Street,N.W."
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "submissiontype": {
+        "id": 33,
+        "abbreviation": "MN",
+        "description": "MOTION FOR EXTENSION OF TIME",
+        "short": "MOTION"
+      },
+      "entity": "Law Firm",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "20170310206772640",
+      "id_submission": "10310189466557",
+      "presented_to": [],
+      "date_received": "2017-03-10T22:07:33.358Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-10T22:07:33.358Z",
+      "date_disseminated": "2017-03-13T15:00:03.843Z",
+      "_index": "filings.2017.3"
+    },
+    {
+      "attachments": [],
+      "documents": [
+        {
+          "src": "https://ecfsapi.fcc.gov/file/DOC-56ac1e9870000000-A.pdf",
+          "filename": "NCL 3-6 ExParte DRAFT (FINAL).pdf",
+          "description": "NCL Ex Parte letter re: meeting w/Cmmr. Clyburn 3/6/17."
+        }
+      ],
+      "proceedings": [
+        {
+          "name": "09-158",
+          "description": "In the Matter of Consumer Information and Disclosure Truth-in-Billing Format IP-Enabled Services.",
+          "description_display": "In the Matter of Consumer Information and Disclosure Truth-in-Billing Format IP-Enabled Services.",
+          "id_proceeding": 1012001476,
+          "bureau_name": "Consumer and Governmental Affairs Bureau",
+          "bureau_code": "CG"
+        },
+        {
+          "name": "12-375",
+          "description": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "description_display": "Implementation of the Pay Telephone Reclassification and Compensation Provisions of the Telecommunications Act of 1996 et al.",
+          "id_proceeding": 1012202567,
+          "bureau_name": "Wireline Competition Bureau",
+          "bureau_code": "WC"
+        },
+        {
+          "name": "10-207",
+          "description": "In the Matter of Consumer Information and Disclosure Empowering Consumers to Avoid Bill Shock.",
+          "description_display": "In the Matter of Consumer Information and Disclosure Empowering Consumers to Avoid Bill Shock.",
+          "id_proceeding": 1012001824,
+          "bureau_name": "Consumer and Governmental Affairs Bureau",
+          "bureau_code": "CG"
+        }
+      ],
+      "filers": [
+        {
+          "name": "National Consumers League"
+        }
+      ],
+      "authors": [
+        {
+          "name": "John Breyault"
+        }
+      ],
+      "bureaus": [],
+      "lawfirms": [],
+      "addressentity": {
+        "address_line_1": "1701 K Street NW",
+        "address_line_2": "Suite 1200",
+        "city": "Washington",
+        "state": "DC",
+        "zip_code": "20006"
+      },
+      "internationaladdressentity": {
+        "addresstext": ""
+      },
+      "contact_email": "johnb@nclnet.org",
+      "submissiontype": {
+        "id": 45,
+        "abbreviation": "NO",
+        "description": "NOTICE OF EXPARTE",
+        "short": "NOTICE"
+      },
+      "presented_to": [
+        {
+          "id": 195,
+          "bureau_code": "MC",
+          "name": "Office of Commissioner Mignon Clyburn",
+          "edocs_bureau_code": "OCMC",
+          "filingsCount": 0
+        }
+      ],
+      "entity": "Filer",
+      "emailConfirmation": "true",
+      "express_comment": 0,
+      "confirmation_number": "201703090956711482",
+      "id_submission": "103090898918422",
+      "date_received": "2017-03-09T00:33:25.466Z",
+      "filingstatus": {
+        "id": 30,
+        "description": "DISSEMINATED"
+      },
+      "viewingstatus": {
+        "id": "10",
+        "description": "Unrestricted"
+      },
+      "date_submission": "2017-03-09T00:33:25.466Z",
+      "date_disseminated": "2017-03-09T16:00:04.219Z",
+      "_index": "filings.2017.3"
+    }
+  ],
+  "aggregations": {
+    "express_comment": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": 0,
+          "doc_count": 1864
+        },
+        {
+          "key": 1,
+          "doc_count": 362
+        }
+      ]
+    },
+    "bureaus_description": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Wireline Competition Bureau",
+          "doc_count": 2145
+        }
+      ]
+    },
+    "submissiontype_description": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 129,
+      "buckets": [
+        {
+          "key": "COMMENT",
+          "doc_count": 879
+        },
+        {
+          "key": "NOTICE OF EXPARTE",
+          "doc_count": 589
+        },
+        {
+          "key": "LETTER",
+          "doc_count": 363
+        },
+        {
+          "key": "OTHER",
+          "doc_count": 100
+        },
+        {
+          "key": "REPLY TO COMMENTS",
+          "doc_count": 49
+        },
+        {
+          "key": "PUBLIC NOTICE",
+          "doc_count": 29
+        },
+        {
+          "key": "OPPOSITION",
+          "doc_count": 27
+        },
+        {
+          "key": "REPLY",
+          "doc_count": 23
+        },
+        {
+          "key": "PETITION",
+          "doc_count": 20
+        },
+        {
+          "key": "ORDER",
+          "doc_count": 18
+        }
+      ]
+    },
+    "exparte_or_late_filed": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "n",
+          "doc_count": 1585
+        },
+        {
+          "key": "y",
+          "doc_count": 560
+        }
+      ]
+    },
+    "is_staff_upload": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": 0,
+          "doc_count": 1496
+        },
+        {
+          "key": 1,
+          "doc_count": 660
+        }
+      ]
+    },
+    "proceedings_name": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 20,
+      "buckets": [
+        {
+          "key": "12-375",
+          "doc_count": 2226
+        },
+        {
+          "key": "07-294",
+          "doc_count": 5
+        },
+        {
+          "key": "09-182",
+          "doc_count": 5
+        },
+        {
+          "key": "11-42",
+          "doc_count": 5
+        },
+        {
+          "key": "14-50",
+          "doc_count": 5
+        },
+        {
+          "key": "04-296",
+          "doc_count": 4
+        },
+        {
+          "key": "06-119",
+          "doc_count": 4
+        },
+        {
+          "key": "10-244",
+          "doc_count": 4
+        },
+        {
+          "key": "12-268",
+          "doc_count": 4
+        },
+        {
+          "key": "13-135",
+          "doc_count": 4
+        }
+      ]
+    },
+    "filingstatus_description": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "disseminated",
+          "doc_count": 2226
+        }
+      ]
+    },
+    "filers_name": {
+      "doc_count_error_upper_bound": 5,
+      "sum_other_doc_count": 1623,
+      "buckets": [
+        {
+          "key": "Securus Technologies, Inc.",
+          "doc_count": 122
+        },
+        {
+          "key": "Global Tel*Link Corporation",
+          "doc_count": 95
+        },
+        {
+          "key": "Wireline Competition Bureau",
+          "doc_count": 75
+        },
+        {
+          "key": "Pay Tel Communications, Inc.",
+          "doc_count": 68
+        },
+        {
+          "key": "Numerous",
+          "doc_count": 62
+        },
+        {
+          "key": "Martha Wright, et al",
+          "doc_count": 52
+        },
+        {
+          "key": "CenturyLink",
+          "doc_count": 51
+        },
+        {
+          "key": "Prison Policy Initiative",
+          "doc_count": 38
+        },
+        {
+          "key": "Pay Tel Communications",
+          "doc_count": 31
+        },
+        {
+          "key": "Network Communications International Corp.",
+          "doc_count": 25
+        }
+      ]
+    },
+    "authors_name": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 952,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 776
+        },
+        {
+          "key": "Stephanie A. Joyce",
+          "doc_count": 115
+        },
+        {
+          "key": "Cherie R. Kiser",
+          "doc_count": 91
+        },
+        {
+          "key": "Lee G. Petro",
+          "doc_count": 74
+        },
+        {
+          "key": "Various",
+          "doc_count": 65
+        },
+        {
+          "key": "Marcus Trathen",
+          "doc_count": 39
+        },
+        {
+          "key": "Timothy Nelson",
+          "doc_count": 39
+        },
+        {
+          "key": "Andrew D. Lipman",
+          "doc_count": 25
+        },
+        {
+          "key": "Thomas M. Dethlefs",
+          "doc_count": 20
+        },
+        {
+          "key": "Thomas Dethlefs",
+          "doc_count": 19
+        }
+      ]
+    },
+    "viewingstatus_description": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "unrestricted",
+          "doc_count": 2170
+        },
+        {
+          "key": "confidential",
+          "doc_count": 56
+        }
+      ]
+    }
+  }
+}

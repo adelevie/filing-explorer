@@ -9,9 +9,10 @@ class GetFilings(object):
 
     def perform(self):
         payload = {
-            'q': self._proceeding_name,
+            'api_key': self._api_key,
+            'proceedings.name': self._proceeding_name,
             'limit': '1000',
-            'api_key': self._api_key
+            'offset': '0'
         }
         url = 'https://publicapi.fcc.gov/ecfs/filings'
 

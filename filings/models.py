@@ -12,6 +12,7 @@ class Filing(models.Model):
     filer = models.CharField(max_length=200, null=True)
     author = models.CharField(max_length=200, null=True)
     documents = ArrayField(models.CharField(max_length=1000))
+    date_submitted = models.DateTimeField(default=None, null=True)
 
     def __str__(self):
         return "{} of {} ({})".format(self.submission_type.lower().capitalize(),
