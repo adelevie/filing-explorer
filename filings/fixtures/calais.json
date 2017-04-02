@@ -1,0 +1,413 @@
+{
+  "doc": {
+    "info": {
+      "calaisRequestID": "eb88f1c7-cef8-393b-15b2-ff0f7e659487",
+      "id": "http:\/\/id.opencalais.com\/LNzRT-hZONzvRNiXfSBSDA",
+      "ontology": "http:\/\/mdaas-virtual-onecalais.int.thomsonreuters.com\/owlschema\/10.5\/onecalais.owl.allmetadata.xml",
+      "docId": "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd",
+      "document": "",
+      "docTitle": "",
+      "docDate": "2017-04-02 18:32:53.204"
+    },
+    "meta": {
+      "contentType": "text\/raw",
+      "processingVer": "AllMetadata",
+      "serverVersion": "OneCalais_10.5-RELEASE:151",
+      "stagsVer": "OneCalais_10.5-RELEASE-b1-2017-02-26_17:34:30",
+      "submissionDate": "2017-04-02 18:32:52.966",
+      "submitterCode": "0ca6a864-5659-789d-5f32-f365f695e757",
+      "signature": "digestalg-1|pxUaYkL3Q\/Of4NN57wLbR0pLTgU=|QuW4oRumj7X14UQqJVC4Zh0STREdMSIsrKmWvZbuiZ78bX732cJ8WQ==",
+      "language": "English"
+    }
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/lid\/DefaultLangId": {
+    "_typeGroup": "language",
+    "language": "http:\/\/d.opencalais.com\/lid\/DefaultLangId\/English",
+    "forenduserdisplay": "false",
+    "permid": "505062"
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/1": {
+    "_typeGroup": "socialTag",
+    "id": "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/1",
+    "socialTag": "http:\/\/d.opencalais.com\/genericHasher-1\/511c16cd-a839-3c75-ae9f-3f8e23024a82",
+    "forenduserdisplay": "true",
+    "name": "Jessica Rosenworcel",
+    "importance": "1",
+    "originalValue": "Jessica Rosenworcel"
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/2": {
+    "_typeGroup": "socialTag",
+    "id": "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/2",
+    "socialTag": "http:\/\/d.opencalais.com\/genericHasher-1\/8d3ed8c7-5ee0-396b-8cc3-f937723cfe2d",
+    "forenduserdisplay": "true",
+    "name": "Securus Technologies",
+    "importance": "1",
+    "originalValue": "Securus Technologies"
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/3": {
+    "_typeGroup": "socialTag",
+    "id": "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/3",
+    "socialTag": "http:\/\/d.opencalais.com\/genericHasher-1\/77c33092-42c5-3984-af15-81e6255c02d6",
+    "forenduserdisplay": "true",
+    "name": "Littmann",
+    "importance": "1",
+    "originalValue": "Littmann"
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/4": {
+    "_typeGroup": "socialTag",
+    "id": "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/SocialTag\/4",
+    "socialTag": "http:\/\/d.opencalais.com\/genericHasher-1\/261125db-b75a-3d86-beeb-9b20a245da81",
+    "forenduserdisplay": "true",
+    "name": "Securus",
+    "importance": "2",
+    "originalValue": "Securus"
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/Industry\/1": {
+    "_typeGroup": "industry",
+    "forenduserdisplay": "false",
+    "name": "Communications & Networking - NEC",
+    "rcscode": "B:1750",
+    "permid": "4294951251",
+    "relevance": 0.8
+  },
+  "http:\/\/d.opencalais.com\/dochash-1\/75539d15-cacb-3f4c-8230-b3df07107bbd\/ComponentVersions": {
+    "_typeGroup": "versions",
+    "version": [
+      "Deals Index:201704021801:201704021801",
+      "DIY-Categorization-fnr-TRCS-indx_stsale:20170315124018:20170315124018",
+      "index-refineries:201704012204:201704012204",
+      "config-physicalAssets-powerStations:590:590",
+      "NextTags:OneCalais_10.5-RELEASE:151",
+      "config-sca-DataPackage:38:38",
+      "DIY-Categorization-fnr-TRCS-hedge_list1:20170315123823:20170315123823",
+      "People Index:201704021521:201704021521",
+      "config-negativeSignature:590:590",
+      "Dial4J:OneCalais_8.6-RELEASE:209",
+      "DIY-Categorization-fnr-TRCS-dbtr_new:20170315123740:20170315123740",
+      "OA Override:612:612",
+      "People Override:590:590",
+      "DIY-Categorization-fnr-TRCS-hrgt_recll:20170315123936:20170315123936",
+      "index-company-oa3:201704021146:201704021146",
+      "index-vessels:201704011551:201704011551",
+      "config-refineries:590:590",
+      "DIY-Categorization-fnr-TRCS-class:20170315123207:20170315123207",
+      "config-cse:612:612",
+      "DIY-Categorization-fnr-TRCS-isu_dat_r:20170315124144:20170315124144",
+      "DIY-Categorization-fnr-TRCS-cnsl_sisu:20170315123606:20170315123606",
+      "config-vessels:590:590",
+      "OneCalais:OneCalais_10.5-RELEASE:151",
+      "DIY-RCS-fnr-TRCS-cavs:1:1",
+      "DIY-RCS-fnr-TRCS-nd:1:1",
+      "config-physicalAssets-mines:590:590",
+      "SocialTags Index:201703232008:201703232008",
+      "BlackList:612:612",
+      "index-ports:201704012156:201704012156",
+      "config-physicalAssets-ports:590:590",
+      "config-drugs:590:590"
+    ]
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/48a2b062-19d0-3d50-9db3-c97177c610e4": {
+    "_typeGroup": "entities",
+    "_type": "Position",
+    "forenduserdisplay": "false",
+    "name": "Vice President and General Counsel",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Position",
+    "instances": [
+      {
+        "detection": "[Inc. (\"Securus\"),\n        represented by ]Vice President and General Counsel[ Dennis J. Reinhold,\n        Andrew J. Lipman,]",
+        "prefix": "Inc. (\"Securus\"),\n        represented by ",
+        "exact": "Vice President and General Counsel",
+        "suffix": " Dennis J. Reinhold,\n        Andrew J. Lipman,",
+        "offset": 90,
+        "length": 34
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http:\/\/d.opencalais.com\/comphash-1\/a555735b-6e87-3342-8a9e-2999fd01926a": {
+    "_typeGroup": "entities",
+    "_type": "Company",
+    "forenduserdisplay": "true",
+    "name": "Securus Technologies Inc.",
+    "nationality": "N\/A",
+    "confidencelevel": "1.0",
+    "resolutions": [
+      {
+        "name": "SECURUS TECHNOLOGIES, INC.",
+        "permid": "4298009428",
+        "ispublic": "false",
+        "commonname": "Securus Tech",
+        "score": 0.8429609,
+        "id": "https:\/\/permid.org\/1-4298009428"
+      }
+    ],
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Company",
+    "instances": [
+      {
+        "detection": "[       On July 28, 2016, ]Securus Technologies, Inc. (\"Securus\")[,\n        represented by Vice President and]",
+        "prefix": "       On July 28, 2016, ",
+        "exact": "Securus Technologies, Inc. (\"Securus\")",
+        "suffix": ",\n        represented by Vice President and",
+        "offset": 27,
+        "length": 38
+      }
+    ],
+    "relevance": 0.8,
+    "confidence": {
+      "statisticalfeature": "0.862",
+      "dblookup": "0.0",
+      "resolution": "0.8429609",
+      "aggregate": "1.0"
+    }
+  },
+  "http:\/\/d.opencalais.com\/pershash-1\/2df9662a-f666-3da9-ac5f-12098edc25f2": {
+    "_typeGroup": "entities",
+    "_type": "Person",
+    "forenduserdisplay": "true",
+    "name": "Andrew J. Lipman",
+    "persontype": "N\/A",
+    "nationality": "N\/A",
+    "confidencelevel": "0.963",
+    "firstname": "Andrew",
+    "middlename": "J.",
+    "lastname": "Lipman",
+    "commonname": "Andrew Lipman",
+    "confidence": {
+      "statisticalfeature": "0.978",
+      "dblookup": "0.0",
+      "resolution": "0.0",
+      "aggregate": "0.963"
+    },
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Person",
+    "instances": [
+      {
+        "detection": "[and General Counsel Dennis J. Reinhold,\n        ]Andrew J. Lipman[, and the undersigned counsel, met with Travis]",
+        "prefix": "and General Counsel Dennis J. Reinhold,\n        ",
+        "exact": "Andrew J. Lipman",
+        "suffix": ", and the undersigned counsel, met with Travis",
+        "offset": 153,
+        "length": 16
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http:\/\/d.opencalais.com\/pershash-1\/935edb86-8cf1-3df5-b39d-2fade87f4ba3": {
+    "_typeGroup": "entities",
+    "_type": "Person",
+    "forenduserdisplay": "true",
+    "name": "Dennis J. Reinhold",
+    "persontype": "economic",
+    "nationality": "N\/A",
+    "confidencelevel": "0.978",
+    "firstname": "Dennis",
+    "middlename": "J.",
+    "lastname": "Reinhold",
+    "commonname": "Dennis Reinhold",
+    "confidence": {
+      "statisticalfeature": "0.978",
+      "dblookup": "0.0",
+      "resolution": "0.975138",
+      "aggregate": "0.978"
+    },
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Person",
+    "instances": [
+      {
+        "detection": "[by Vice President and General Counsel ]Dennis J. Reinhold[,\n        Andrew J. Lipman, and the undersigned]",
+        "prefix": "by Vice President and General Counsel ",
+        "exact": "Dennis J. Reinhold",
+        "suffix": ",\n        Andrew J. Lipman, and the undersigned",
+        "offset": 125,
+        "length": 18
+      }
+    ],
+    "relevance": 0.2,
+    "resolutions": [
+      {
+        "name": "Dennis J Reinhold",
+        "personid": "1061502",
+        "paid": "34413816513",
+        "officerid": "1178437",
+        "commonname": "Dennis Reinhold",
+        "score": 0.975138
+      }
+    ]
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/048fa22d-ec8d-3747-87eb-1a5f9a531124": {
+    "_typeGroup": "entities",
+    "_type": "Position",
+    "forenduserdisplay": "false",
+    "name": "Legal Advisor to Commissioner Jessica Rosenworcel",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Position",
+    "instances": [
+      {
+        "detection": "[met with Travis Litman,\n        Wireline ]Legal Advisor to Commissioner Jessica Rosenworcel[,\n        to discuss the Fact Sheet released in]",
+        "prefix": "met with Travis Litman,\n        Wireline ",
+        "exact": "Legal Advisor to Commissioner Jessica Rosenworcel",
+        "suffix": ",\n        to discuss the Fact Sheet released in",
+        "offset": 241,
+        "length": 49
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http:\/\/d.opencalais.com\/pershash-1\/cbb4010c-64dc-3d58-9741-9f2372eade16": {
+    "_typeGroup": "entities",
+    "_type": "Person",
+    "forenduserdisplay": "true",
+    "name": "Travis Litman",
+    "persontype": "N\/A",
+    "nationality": "N\/A",
+    "confidencelevel": "0.95",
+    "firstname": "Travis",
+    "lastname": "Litman",
+    "commonname": "Travis Litman",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Person",
+    "instances": [
+      {
+        "detection": "[ J. Lipman, and the undersigned counsel, met with ]Travis Litman[,\n        Wireline Legal Advisor to Commissioner]",
+        "prefix": " J. Lipman, and the undersigned counsel, met with ",
+        "exact": "Travis Litman",
+        "suffix": ",\n        Wireline Legal Advisor to Commissioner",
+        "offset": 209,
+        "length": 13
+      }
+    ],
+    "relevance": 0.2,
+    "confidence": {
+      "statisticalfeature": "0.97",
+      "dblookup": "0.0",
+      "resolution": "0.0",
+      "aggregate": "0.95"
+    }
+  },
+  "http:\/\/d.opencalais.com\/pershash-1\/0158537a-8e5e-3f2f-986d-bff360968bb1": {
+    "_typeGroup": "entities",
+    "_type": "Person",
+    "forenduserdisplay": "true",
+    "name": "Jessica Rosenworcel",
+    "persontype": "political",
+    "nationality": "N\/A",
+    "confidencelevel": "0.994",
+    "firstname": "Jessica",
+    "lastname": "Rosenworcel",
+    "commonname": "Jessica Rosenworcel",
+    "confidence": {
+      "statisticalfeature": "0.996",
+      "dblookup": "0.0",
+      "resolution": "0.0",
+      "aggregate": "0.994"
+    },
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Person",
+    "instances": [
+      {
+        "detection": "[       Wireline Legal Advisor to Commissioner ]Jessica Rosenworcel[,\n        to discuss the Fact Sheet released in]",
+        "prefix": "       Wireline Legal Advisor to Commissioner ",
+        "exact": "Jessica Rosenworcel",
+        "suffix": ",\n        to discuss the Fact Sheet released in",
+        "offset": 271,
+        "length": 19
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/519cc94d-52f2-3847-b38e-55ee10c6f6c0": {
+    "_typeGroup": "entities",
+    "_type": "Position",
+    "forenduserdisplay": "false",
+    "name": "undersigned counsel",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/e\/Position",
+    "instances": [
+      {
+        "detection": "[J. Reinhold,\n        Andrew J. Lipman, and ]the undersigned counsel[, met with Travis Litman,\n        Wireline Legal]",
+        "prefix": "J. Reinhold,\n        Andrew J. Lipman, and ",
+        "exact": "the undersigned counsel",
+        "suffix": ", met with Travis Litman,\n        Wireline Legal",
+        "offset": 175,
+        "length": 23
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/3a990e85-400c-38c6-b451-bd3cebf91130": {
+    "_typeGroup": "relations",
+    "_type": "PersonCareer",
+    "forenduserdisplay": "true",
+    "position": "Commissioner",
+    "careertype": "political",
+    "status": "current",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/r\/PersonCareer",
+    "person": "http:\/\/d.opencalais.com\/pershash-1\/0158537a-8e5e-3f2f-986d-bff360968bb1",
+    "instances": [
+      {
+        "detection": "[ Travis Litman,\n        Wireline Legal Advisor to ]Commissioner Jessica Rosenworcel[,\n        to discuss the Fact Sheet released in]",
+        "prefix": " Travis Litman,\n        Wireline Legal Advisor to ",
+        "exact": "Commissioner Jessica Rosenworcel",
+        "suffix": ",\n        to discuss the Fact Sheet released in",
+        "offset": 258,
+        "length": 32
+      }
+    ]
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/65970c9d-1bbe-39b0-a817-7eb6fdbc6f03": {
+    "_typeGroup": "relations",
+    "_type": "PersonCommunication",
+    "forenduserdisplay": "true",
+    "status": "announced",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/r\/PersonCommunication",
+    "person": [
+      "http:\/\/d.opencalais.com\/pershash-1\/2df9662a-f666-3da9-ac5f-12098edc25f2",
+      "http:\/\/d.opencalais.com\/pershash-1\/cbb4010c-64dc-3d58-9741-9f2372eade16"
+    ],
+    "instances": [
+      {
+        "detection": "[and General Counsel Dennis J. Reinhold,\n        ]Andrew J. Lipman, and the undersigned counsel, met with Travis Litman[,\n        Wireline Legal Advisor to Commissioner]",
+        "prefix": "and General Counsel Dennis J. Reinhold,\n        ",
+        "exact": "Andrew J. Lipman, and the undersigned counsel, met with Travis Litman",
+        "suffix": ",\n        Wireline Legal Advisor to Commissioner",
+        "offset": 153,
+        "length": 69
+      }
+    ]
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/055d00e1-90d0-385e-af77-359bc252cc86": {
+    "_typeGroup": "relations",
+    "_type": "PersonCommunication",
+    "forenduserdisplay": "true",
+    "persondescription": "undersigned counsel",
+    "status": "announced",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/r\/PersonCommunication",
+    "person": "http:\/\/d.opencalais.com\/pershash-1\/cbb4010c-64dc-3d58-9741-9f2372eade16",
+    "instances": [
+      {
+        "detection": "[J. Reinhold,\n        Andrew J. Lipman, and ]the undersigned counsel, met with Travis Litman[,\n        Wireline Legal Advisor to Commissioner]",
+        "prefix": "J. Reinhold,\n        Andrew J. Lipman, and ",
+        "exact": "the undersigned counsel, met with Travis Litman",
+        "suffix": ",\n        Wireline Legal Advisor to Commissioner",
+        "offset": 175,
+        "length": 47
+      }
+    ]
+  },
+  "http:\/\/d.opencalais.com\/genericHasher-1\/04f9e460-edf5-3be8-a780-f314414f7ae6": {
+    "_typeGroup": "relations",
+    "_type": "PersonCareer",
+    "forenduserdisplay": "true",
+    "position": "Vice President and General Counsel",
+    "positionnormalized": "attorney",
+    "careertype": "professional",
+    "status": "current",
+    "_typeReference": "http:\/\/s.opencalais.com\/1\/type\/em\/r\/PersonCareer",
+    "person": "http:\/\/d.opencalais.com\/pershash-1\/935edb86-8cf1-3df5-b39d-2fade87f4ba3",
+    "company": "http:\/\/d.opencalais.com\/comphash-1\/a555735b-6e87-3342-8a9e-2999fd01926a",
+    "instances": [
+      {
+        "detection": "[       On July 28, 2016, ]Securus Technologies, Inc. (\"Securus\"),\n        represented by Vice President and General Counsel Dennis J. Reinhold[,\n        Andrew J. Lipman, and the undersigned]",
+        "prefix": "       On July 28, 2016, ",
+        "exact": "Securus Technologies, Inc. (\"Securus\"),\n        represented by Vice President and General Counsel Dennis J. Reinhold",
+        "suffix": ",\n        Andrew J. Lipman, and the undersigned",
+        "offset": 27,
+        "length": 116
+      }
+    ]
+  }
+}

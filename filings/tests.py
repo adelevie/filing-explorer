@@ -7,6 +7,7 @@ from filings.services.get_filings import GetFilings
 from filings.services.get_all_filings import GetAllFilings
 from filings.services.save_filings import SaveFilings
 from filings.services.filing_parser import FilingParser
+from filings.services.get_open_calais_entities import GetOpenCalaisEntities
 
 from .models import Filing
 
@@ -14,6 +15,34 @@ from unittest.mock import Mock, patch
 
 from IPython import embed
 import requests
+
+class GetOpenCalaisEntitiesTestCase(TestCase):
+    @patch('filings.services.get_open_calais_entities.requests.post')
+    def test_perform(self, mock_get):
+        mock_text = open(os.path.join('filings', 'fixtures', 'calais.json')).read()
+        mock_json = json.loads(mock_text)
+        mock_response = Mock()
+        mock_response.json.return_value = mock_json
+        mock_response.text = mock_text
+        mock_get.return_value = mock_response
+
+        text = """
+        On July 28, 2016, Securus Technologies, Inc. ("Securus"),
+        represented by Vice President and General Counsel Dennis J. Reinhold,
+        Andrew J. Lipman, and the undersigned counsel, met with Travis Litman,
+        Wireline Legal Advisor to Commissioner Jessica Rosenworcel,
+        to discuss the Fact Sheet released in the above-named docket on July 24, 2016.
+        """
+
+        api_key = os.environ.get('OPEN_CALAIS_TOKEN')
+
+        get_open_calais_entities = GetOpenCalaisEntities(api_key, text)
+        get_open_calais_entities_response = get_open_calais_entities.perform()
+
+        entities_dict = get_open_calais_entities_response.json()
+
+        self.assertIs(entities_dict.__class__, dict)
+
 
 class FilingParserTestCase(TestCase):
     def test_perform(self):
