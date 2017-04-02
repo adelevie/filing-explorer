@@ -6,6 +6,7 @@ from django.test import TestCase
 from filings.services.get_filings import GetFilings
 from filings.services.get_all_filings import GetAllFilings
 from filings.services.save_filings import SaveFilings
+from filings.services.filing_parser import FilingParser
 
 from .models import Filing
 
@@ -13,6 +14,27 @@ from unittest.mock import Mock, patch
 
 from IPython import embed
 import requests
+
+class FilingParserTestCase(TestCase):
+    def test_perform(self):
+        filings_json = json.loads(open(os.path.join('filings', 'fixtures', '12-375-1.json')).read())
+
+        filing_json = filings_json.get('filings')[0]
+
+        filing_parser = FilingParser(filing_json)
+        parsed_filing = filing_parser.perform()
+
+        self.assertIn('proceeding', parsed_filing)
+        self.assertIn('proceedings', parsed_filing)
+        self.assertIn('text', parsed_filing)
+        self.assertIn('fcc_id', parsed_filing)
+        self.assertIn('contact_email', parsed_filing)
+        self.assertIn('submission_type', parsed_filing)
+        self.assertIn('filer', parsed_filing)
+        self.assertIn('author', parsed_filing)
+        self.assertIn('documents', parsed_filing)
+        self.assertIn('date_submitted', parsed_filing)
+
 
 class GetAllFilingsTestCase(TestCase):
     @patch('filings.services.get_filings.requests.get')
