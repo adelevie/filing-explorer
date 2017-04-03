@@ -15,6 +15,19 @@ class Filing(models.Model):
     date_submitted = models.DateTimeField(default=None, null=True)
 
     def __str__(self):
-        return "{} of {} ({})".format(self.submission_type.lower().capitalize(),
+        return "{} of {} ({})".format(self.submission_type,
                                       self.filer,
                                       self.proceeding)
+
+class Person(models.Model):
+    full_name = models.CharField(max_length=1000)
+
+    def __str__(self):
+        return self.full_name
+
+class Mention(models.Model):
+    person = models.ForeignKey(Person)
+    filing = models.ForeignKey(Filing)
+
+    def __str__(self):
+        return "{} in {}".format(self.person.full_name, self.filing.proceeding)

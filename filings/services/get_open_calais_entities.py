@@ -19,4 +19,10 @@ class GetOpenCalaisEntities(object):
 
         response = requests.post(calaisUrl, headers=headers, data=self._text)
 
+        if response.status_code != 200:
+            raise CalaisError("Calais API error: {}".format(response.text))
+
         return response
+
+class CalaisError(Exception):
+    pass

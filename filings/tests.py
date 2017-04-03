@@ -8,13 +8,74 @@ from filings.services.get_all_filings import GetAllFilings
 from filings.services.save_filings import SaveFilings
 from filings.services.filing_parser import FilingParser
 from filings.services.get_open_calais_entities import GetOpenCalaisEntities
+from filings.services.open_calais_parser import OpenCalaisParser
+from filings.services.save_people import SavePeople
 
-from .models import Filing
+from .models import Filing, Person, Mention
 
 from unittest.mock import Mock, patch
 
 from IPython import embed
 import requests
+
+class SavePeopleTestCase(TestCase):
+    @patch('filings.services.get_open_calais_entities.requests.post')
+    def test_perform(self, mock_get):
+        mock_text = open(os.path.join('filings', 'fixtures', 'calais.json')).read()
+        mock_json = json.loads(mock_text)
+        mock_response = Mock()
+        mock_response.json.return_value = mock_json
+        mock_response.text = mock_text
+        mock_get.return_value = mock_response
+
+        text = """
+        On July 28, 2016, Securus Technologies, Inc. ("Securus"),
+        represented by Vice President and General Counsel Dennis J. Reinhold,
+        Andrew J. Lipman, and the undersigned counsel, met with Travis Litman,
+        Wireline Legal Advisor to Commissioner Jessica Rosenworcel,
+        to discuss the Fact Sheet released in the above-named docket on July 24, 2016.
+        """
+
+        proceeding = '12-375'
+
+        filing = Filing(
+            proceeding=proceeding,
+            proceedings=[proceeding],
+            text=text,
+            fcc_id='1234',
+            submission_type='NOTICE OF EXPARTE',
+            documents=[]
+        )
+        filing.save()
+
+        self.assertEqual(Person.objects.count(), 0)
+        self.assertEqual(Mention.objects.count(), 0)
+
+        save_people = SavePeople('fakeApiKey', '12-375')
+        save_people.perform()
+
+        self.assertEqual(Person.objects.count(), 4)
+        self.assertEqual(Mention.objects.count(), 4)
+
+
+class OpenCalaisParserTestCase(TestCase):
+    def test_names(self):
+        calais_response = json.loads(open(os.path.join('filings', 'fixtures', 'calais.json')).read())
+
+        parser = OpenCalaisParser(calais_response)
+
+        names = parser.names()
+
+        self.assertIs(names.__class__, list)
+
+        expected = [
+            'Andrew J. Lipman',
+            'Dennis J. Reinhold',
+            'Travis Litman',
+            'Jessica Rosenworcel'
+        ]
+        self.assertEqual(names, expected)
+
 
 class GetOpenCalaisEntitiesTestCase(TestCase):
     @patch('filings.services.get_open_calais_entities.requests.post')
