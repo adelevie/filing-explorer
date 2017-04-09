@@ -29,6 +29,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'behave_django',
     'filings.apps.FilingsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
