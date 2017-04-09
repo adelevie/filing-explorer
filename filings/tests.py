@@ -26,6 +26,8 @@ class SavePeopleTestCase(TestCase):
         mock_response = Mock()
         mock_response.json.return_value = mock_json
         mock_response.text = mock_text
+        mock_response.status_code = 200
+
         mock_get.return_value = mock_response
 
         text = """
@@ -85,6 +87,7 @@ class GetOpenCalaisEntitiesTestCase(TestCase):
         mock_response = Mock()
         mock_response.json.return_value = mock_json
         mock_response.text = mock_text
+        mock_response.status_code = 200
         mock_get.return_value = mock_response
 
         text = """
@@ -129,8 +132,6 @@ class FilingParserTestCase(TestCase):
 class GetAllFilingsTestCase(TestCase):
     @patch('filings.services.get_filings.requests.get')
     def test_perform(self, mock_get):
-        mock_get.status_code.return_value = 200
-
         json1 = json.loads(open(os.path.join('filings', 'fixtures', '12-375-1.json')).read())
         json2 = json.loads(open(os.path.join('filings', 'fixtures', '12-375-2.json')).read())
 
