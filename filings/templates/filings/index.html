@@ -1,3 +1,6 @@
+<p>Total filings: {{ filings|length }}</p>
+
+
 {% for filing in filings %}
   <p><a href="/filings/{{ filing.id }}">{{ filing }}</a></p>
 {% endfor %}
