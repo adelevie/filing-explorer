@@ -11,12 +11,34 @@ from filings.services.get_open_calais_entities import GetOpenCalaisEntities
 from filings.services.open_calais_parser import OpenCalaisParser
 from filings.services.save_people import SavePeople
 
+from filings.template_models import FilingTemplateModel
+
 from .models import Filing, Person, Mention
 
 from unittest.mock import Mock, patch
 
 from IPython import embed
 import requests
+
+class FilingTemplateModelTestCase(TestCase):
+    def test_basic(self):
+        mock_filing = Mock()
+        mock_filing.text = """
+        Obama's Title II order has diminished broadband investment, stifled innovation, and left American consumers potentially on the hook for a new broadband tax.
+        These regulations ended a decades-long bipartisan consensus that the Internet should be regulated through a light touch framework that worked better than anyone could have imagined and made the Internet what it is.
+        For these reasons I urge you to fully repeal the Obama/Wheeler Internet regulations.
+        """
+        mock_filing.submission_type = "COMMENTS"
+        mock_filing.filer = "Person C. Commenter"
+        mock_filing.proceeding = "17-108"
+        mock_filing.id = 1
+        filing_view_template = FilingTemplateModel(mock_filing)
+
+        self.assertIn("Obama's", filing_view_template.summary())
+        self.assertIn(mock_filing.filer, filing_view_template.heading())
+        self.assertIn(mock_filing.submission_type, filing_view_template.heading())
+        self.assertIn(mock_filing.proceeding, filing_view_template.heading())
+        self.assertEqual(filing_view_template.url_path(), "/filings/1/")
 
 class SavePeopleTestCase(TestCase):
     @patch('filings.services.get_open_calais_entities.requests.post')

@@ -1,0 +1,22 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Filing Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="{% static 'filings/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'filings/css/bootstrap-theme.min.css' %}" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Filing Explorer</h1>
+
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

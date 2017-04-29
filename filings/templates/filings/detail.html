@@ -1,17 +1,23 @@
-<h2>{{ filing }}</h2>
+{% extends 'filings/base.html' %}
 
-<p>Documents:</p>
+{% block content %}
+  <h2>{{ filing }}</h2>
 
-<ul>
-{% for document in filing.documents %}
-  <li><a href="{{ document }}">{{ document }}</a></li>
-{% endfor %}
-</ul>
+  <p>Documents:</p>
 
-<p>Text:</p>
+  <ul>
+  {% for document in filing.documents %}
+    <li><a href="{{ document }}">{{ document }}</a></li>
+  {% endfor %}
+  </ul>
 
-{% if filing.text %}
-  <pre>{{ filing.text }}</pre>
-{% else %}
-  <p>(no text associated with this filing)</p>
-{% endif %}
+  <p>Text:</p>
+
+  {% if filing.text %}
+    <pre style="white-space: pre-wrap;">{{ filing.text }}</pre>
+  {% else %}
+    <p>(no text associated with this filing)</p>
+  {% endif %}
+
+  <a href="/filings"><<< back to proceeding</a>
+{% endblock %}
