@@ -17,3 +17,6 @@ class FilingTemplateModel(object):
 
     def url_path(self):
         return "/filings/{}/".format(self._filing.id)
+
+    def date_submitted(self):
+        return self._filing.date_submitted

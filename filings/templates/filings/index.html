@@ -1,14 +1,27 @@
 {% extends 'filings/base.html' %}
 
 {% block content %}
-  <p>Total filings: {{ filings|length }}</p>
+  <p>Total filings: {{ filings_count }}</p>
 
   <div class="list-group">
     {% for filing in filings %}
       <a href="{{ filing.url_path }}" class="list-group-item">
-        <h4 class="list-group-item-heading">{{ filing.heading }}</h4>
+        <h4 class="list-group-item-heading">{{ filing.heading }} | {{ filing.date_submitted }} </h4>
         <p class="list-group-item-text">{{ filing.summary }}</p>
       </a>
     {% endfor %}
   </div>
+
+  <ul class="pagination nav navbar-nav">
+     {% if filings.has_previous %}
+             <li><a href="?page={{ filings.previous_page_number }}">Prev</a></li>
+     {% endif %}
+     {% for page in filings.paginator.page_range %}
+         <li class="{% if filings.number == page  %}active{% endif %}"><a href="?page={{page }}">{{ page }}</a></li>
+     {% endfor %}
+
+     {% if filings.has_next %}
+         <li> <a href="?page={{ filings.next_page_number }}">Next</a></li>
+     {% endif %}
+  </ul>
 {% endblock %}

@@ -3,6 +3,8 @@
 {% block content %}
   <h2>{{ filing }}</h2>
 
+  <p>{{ filing.date_submitted }}</p>
+
   <p>Documents:</p>
 
   <ul>
@@ -18,6 +20,4 @@
   {% else %}
     <p>(no text associated with this filing)</p>
   {% endif %}
-
-  <a href="/filings"><<< back to proceeding</a>
 {% endblock %}
