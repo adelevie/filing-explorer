@@ -20,4 +20,6 @@
   {% else %}
     <p>(no text associated with this filing)</p>
   {% endif %}
+
+  <p>Link to original: <a href="{{ filing.fcc_link }}">{{ filing.fcc_link }}</a></p>
 {% endblock %}
