@@ -30,7 +30,8 @@ def index(request):
     return render(request, 'filings/index.html', context)
 
 def detail(request, filing_id):
-    filing = get_object_or_404(Filing, pk=int(filing_id))
+    filing_model = get_object_or_404(Filing, pk=int(filing_id))
+    filing = FilingTemplateModel(filing_model)
     context = {
         'filing': filing
     }

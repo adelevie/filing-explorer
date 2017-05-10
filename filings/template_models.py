@@ -18,5 +18,5 @@ class FilingTemplateModel(object):
     def url_path(self):
         return "/filings/{}/".format(self._filing.id)
 
-    def date_submitted(self):
-        return self._filing.date_submitted
+    def fcc_link(self):
+        return "https://www.fcc.gov/ecfs/filing/{}".format(self._filing.fcc_id)
