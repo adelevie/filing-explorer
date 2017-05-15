@@ -21,9 +21,9 @@ class Command(BaseCommand):
         self.stdout.write("Retreiving filings for proceeding {}".format(proceeding_name))
 
         get_filings = GetAllFilings(os.environ.get('ECFS_API_KEY'), proceeding_name)
-        filings = get_filings.perform()
+        get_filings.perform()
 
-        save_filings = SaveFilings(filings)
-        save_filings.perform()
+        #save_filings = SaveFilings(filings)
+        #save_filings.perform()
 
         self.stdout.write("Finishing getfilings command.")

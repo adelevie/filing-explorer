@@ -15,10 +15,12 @@ class SaveFilings(object):
             fcc_id = filing_data.get('fcc_id')
 
             try:
+                print("Querying for filing {}".format(fcc_id))
                 filing = Filing.objects.get(fcc_id=fcc_id)
             except Filing.DoesNotExist:
+                print("Filing {} not found .... saving.".format(fcc_id))
                 filing = Filing(**filing_data)
-
+                print("Filing {} saved".format(fcc_id))
             try:
                 filing.save()
             except:
